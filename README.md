@@ -1,5 +1,4 @@
-
-> Open this page at [https://github-coder-plus.github.io/led-lights-sound-meter/](https://github-coder-plus.github.io/led-lights-sound-meter/)
+# This is the defualt README.md that comes installed with this
 
 ## Use as Extension
 
