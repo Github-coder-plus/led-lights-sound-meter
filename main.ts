@@ -13,14 +13,12 @@ strip.setBrightness(20) // sets the brightness of the strip to 20
 //forever does this
 basic.forever(function () {
     //plots the sound level on the led
-    // old code for led
-    // once we fix the led connectivity issues we can remove this led part below
+    // will keep this as it helps visualize in the makecode simulator.
     led.plotBarGraph(
         input.soundLevel(),
         255
     );
-    // code below works in the makecode simulator, but we are having connectivity issues with the led strip
-    // once this basic functionallity is complete we can add more features like changing colors based on sound levels
+    // This basic functionallity is complete as the connectivity issue is resolved, add more features to this code
     // once the led strip is working we can also remove the led.plotBarGraph part above
     strip.showBarGraph( // new code for led strip instead of led
         input.soundLevel(), //plots the sound level on the led strip up to 255
@@ -33,7 +31,7 @@ basic.forever(function () {
 //
 // Issues:
 //
-// need to fix the led strip connectivity issues to get the full functionality of the code, as the code works in the makecode simulator
+// none at the moment
 //
 // Code snippets:
 //
