@@ -57,7 +57,7 @@ basic.forever(function () {
 // Notes:
 // 
 // I revised the comments to be more descriptive and clear about the functionality of the code and potential future features.
-// I also revised this ocde in makecode to ensure it works in the simulation and that there is less bloat
+// I also revised this code in makecode to ensure it works in the simulation and that there is less bloat
 // Any unnecessary code comments were removed to make the code cleaner and easier to read.
 // 
 // Uncategorized:
