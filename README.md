@@ -1,4 +1,5 @@
-# This is the defualt README.md that comes installed with this
+# LED Lights Sound Meter
+# This is the defualt README.md that comes installed with this, Use this as a showcase project for my skills later so update teh readme when time permits
 
 ## Use as Extension
 
@@ -21,3 +22,4 @@ To edit this repository in MakeCode.
 
 * for PXT/microbit
 <script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+
