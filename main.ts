@@ -18,13 +18,25 @@ basic.forever(function () {
         input.soundLevel(),
         255
     );
-    // This basic functionallity is complete as the connectivity issue is resolved, add more features to this code
-    // once the led strip is working we can also remove the led.plotBarGraph part above
-    strip.showBarGraph( // new code for led strip instead of led
-        input.soundLevel(), //plots the sound level on the led strip up to 255
-        255
-    );
-    //shows the graph on strip
+    
+
+    // we use an if else statement to change the color of the led strip based on sound level
+    if (input.soundLevel() > 190) {
+        
+        strip.showColor(neopixel.colors(NeoPixelColors.Red)) // sets the strip color to red if sound level is above 190
+
+    } else {
+        
+        // This basic functionallity is complete as the connectivity issue is resolved, add more features to this code
+        // once the led strip is working we can also remove the led.plotBarGraph part above
+        strip.showBarGraph( // new code for led strip instead of led
+            input.soundLevel(), //plots the sound level on the led strip up to 255
+            255
+        );
+        //shows the graph on strip
+    }
+    
+    
 })
 
 // extra comments (remove later to reduce bloat):
